@@ -8,3 +8,4 @@ customized list view like Facebook, Google+ news feed where it contains multiple
 - Under res ⇒ drawable, create a new file called bg_parent_rounded_corner.xml 
 - To keep the project well organized, I am creating required packages first. Create 4 packages named app, adapter, data and volley. 
 - Create a class named LruBitmapCache.java under volley package and add the following code. This class takes care of caching network images on disk.
+- Under app package create class named AppController.java and paste the following content. This is a singleton class which initializes global instances of required classes. All the objects related to volley are initialized here.
