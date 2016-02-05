@@ -16,3 +16,5 @@ customized list view like Facebook, Google+ news feed where it contains multiple
 - Create another layout file named feed_item.xml under res ⇒ layout folder. This layout file represents each individual feed item row in the list view.
 - Under data package, create a class named FeedItem.java.
 
+# screenShot
+![alt tag](https://github.com/MostafaAnter/FantasticTimeline/blob/master/device-2016-02-06-002509.png)
