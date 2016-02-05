@@ -12,4 +12,7 @@ customized list view like Facebook, Google+ news feed where it contains multiple
 - Now open your AndroidManifest.xml file and add Application.java class in <application> tag. Also we need to add INTERNET permission as this app makes network calls.
 - The main challenge in this project is adjusting the aspect ratio of feed image once it is downloaded. Unfortunately volley doesn’t provide any callback method once the NetworkImageView is loaded. So I created a custom ImageView class with callback methods. This class automatically adjusts the image height to prevent image aspect ratio distortion.
 - التحدى الوحيد ف المشروع هو ضبط ارتفاع الصوره ليتناسب مع عرضها لان الصوره عرضها هيتغير مع اختلاف الجهاز وبالتالى الصوره هتتشوه
-- 
+- Open your layout for main activity (activity_main.xml) and add a list view element for the feed list.
+- Create another layout file named feed_item.xml under res ⇒ layout folder. This layout file represents each individual feed item row in the list view.
+- Under data package, create a class named FeedItem.java.
+
